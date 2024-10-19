@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Encuesta Escolar</title>
+        <meta charset="UTF-8">
+    </head>
+    <body background="fondo.jpg"> <br>
+        <form>
+            Ocupacion<br><br>
+            ¿A que te dedicas?<br>
+            <select name="Estudia" id="Estudia">
+                <option value="Estudia">Estudia</option>
+                <option value="Trabaja">Trabaja</option>
+                <option value="Ambas">Ambas</option>
+                <option value="Ninguna">Ninguna</option>
+            </select>
+        </form>
+        <br><br>
+        <form>
+            ¿Cómo considera los servicios de la escuela?<br>
+            <input type="radio" name="servicios" value="Bueno">Bueno
+            <input type="radio" name="servicios" value="Regular">Regular
+            <input type="radio" name="servicios" value="Malo">Malo
+        </form>
+<br><br>
+        <form>
+            ¿Qué servicio te gustaria obtener?<br>
+            <input type="radio" name="servicio" value="Beca">Beca
+            <input type="radio" name="servicio" value="Curso">Curso
+            <input type="radio" name="servicio" value="Transporte">Transporte
+        </form>
+<br><br>
+        <form>
+            ¿Qué consideras que urge mejorar?<br>
+            <input type="radio" name="mejora" value="Instalaciones">Instalaciones
+            <input type="radio" name="mejora" value="Equipamiento">Equipamiento
+            <input type="radio" name="mejora" value="Servicios">Servicios
+        </form>
+<br><br>
+        <form>
+            <label for="comentarios">Comentarios:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea>
+        </form>
+
+        <input type="submit" value="Enviar">
+
+    </body>
+</html>

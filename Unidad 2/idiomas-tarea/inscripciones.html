@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inscripciones</title>
+    </head>
+    <body>
+        <h1>
+            Inscripciones
+        </h1>
+        <form>
+            Nombre:
+            <input type="text" name="nombre" placeholder="Nombre">
+            <br><br>
+            No Control:
+            <input type="text" name="noControl" placeholder="No Control">
+            <br><br>
+            Correo:
+            <input type="email" name="correo" placeholder="Correo">
+
+            <br><br>
+
+            ¿Qué curso te interesa?
+            <br>
+            <input type="radio" name="curso" value="Ingles ">Ingles
+            <input type="radio" name="curso" value="Aleman ">Aleman
+            <input type="radio" name="curso" value="Coreano ">Coreano
+            <br><br>    
+
+            <!-- Checkbox para beca -->
+            <input type="checkbox" id="beca" name="beca">
+            <label for="beca">¿Cuentas con beca?</label>
+            <br><br>
+
+            Comentarios
+             <!-- Sección de comentarios -->
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <br><br>
+        
+        <a href="idiomas.html">Regresar</a>
+
+
+        </form>
+    </body>
+</html>

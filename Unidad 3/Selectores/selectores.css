@@ -1,0 +1,14 @@
+/*!important, forza todo el estilo de todo */
+
+p{
+    color:blue ;
+}
+
+.texto_destacado{
+    color:red;
+}
+
+#parrafo_unico{
+    color: green;
+}
+

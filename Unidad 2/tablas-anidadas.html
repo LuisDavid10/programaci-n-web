@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tablas</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <table border="1" width="600" height="150">
+            <caption>Tabla Anidada</caption>
+            <tr>
+                <td align="center">Elemento 1</td>
+                <td align="center">Elemento 2</td>
+                <td align="center">Elemento 3
+                    <p></p>
+                    <table border="2" width="100" height="15">
+                        <tr>
+                            <td align="center">A</td>
+                            <td align="center">B</td>
+                            <tr>
+                            <td align="center">C</td>
+                            <td align="center">D</td>
+                            </tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Elemento 4</td>
+                <td align="center">Elemento 5</td>
+                <td align="center">Elemento 6</td>
+            </tr>
+        </table>
+        <p></p>
+        <table border="5" width="75%">
+            <tr>
+                <td align="center" width="50%"> A</td>
+                <td align="center"> B</td>
+                <td align="center"> C</td>
+                <td align="center"> D</td>
+            </tr>
+            <tr>
+                <td align="center"> E</td>
+                <td align="center"> F</td>
+                <td align="center"> G</td>
+                <td align="center"> H</td>
+        </table>
+
+        <p></p>
+        <table border="50" width="80%" height="250">
+            <caption align="bottom" >Tablas Extendidas</caption>
+            <tr>
+                <td rowspan="2">1A</td>
+                <td>1B</td>
+                <td>1C</td>
+            </tr>
+            <tr>
+                
+                <td>2B</td>
+                <td>2C</td>
+
+            </tr>
+            <tr>
+                <td>3A</td>
+                <td colspan="2" align="center">3B</td>
+                
+            </tr>
+        </table>
+        
+        <table border="1" width="20%"></table>
+            <caption>Tabla de Datos</caption>
+            <tr>
+                <td rowspan="2" colspan="2">Informacion</td>
+                <td colspan="2">medida</td>
+            </tr>
+            <tr>
+                <td>altura</td>
+                <td>peso</td>
+            </tr>
+            <tr>
+                <td rowspan="2">sexo</td>
+                <td>mujer</td>
+                <td>1.60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>hombre</td>
+                <td>1.80</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </body>
+</html>

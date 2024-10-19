@@ -1,0 +1,50 @@
+.coloracion{
+    color: white;
+    background-color: blue;
+}
+
+.alineacion{
+    text-align: center;
+    /*Puede tomar 4 valores: izquierda, centro, derecha y justificado*/
+    /* left, right, center, justify*/
+}
+
+.decoracion{
+    text-decoration: underline; /*underline, line-through, overline*/
+
+    text-decoration-color: red;
+
+    text-decoration-style: wavy; /*solid, double, dotted, dashed, wavy*/
+
+    text-decoration-thickness: 2px;
+}
+
+.especial{
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+/*Shorthand*/
+.especial2{
+    text-decoration: underline green wavy 2px;  
+}
+
+.transformacion{
+    text-transform: uppercase; /*uppercase, lowercase, capitalize*/
+}
+
+.espaciado{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+.sombreado{
+    text-shadow: 2px 3px 5px black;/*horizontal, vertical, opacidad, color*/
+}
+
+.sombreado-arriba-y-abajo{
+    text-shadow: 4px 5px 4px red, -4px -5px 5px green;
+
+}

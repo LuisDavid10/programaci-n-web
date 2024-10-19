@@ -1,0 +1,13 @@
+h3{
+    color: green;
+    front-size: 24px;
+}
+
+a{
+    color:blue;                 /*nombre*/
+    color: #FF0000;             /*hexadecimal*/
+    color:rgb(255, 0, 0);       /*rgb (red, green, blue) */
+    color: hsl(0, 100%, 50%);   /*hsl (hue, saturation, lightness)*/
+    color: rgba(255, 0, 0, 0.875);/*rgba (red, green, blue, alpha)*/
+    color: hsla(0, 100%, 50%, 0.834) /*hsla (hue, saturation, lightness, alpha)*/;
+}
