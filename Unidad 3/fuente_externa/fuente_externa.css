@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Disneyland';
+    src: url('Unidad3/fuentes/Disneyland.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+
+
+.fuente_externa{
+    font-family: 'Disneyland', fantasy;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?Roboto');
+
+.fuente_google{
+    font_family:'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
